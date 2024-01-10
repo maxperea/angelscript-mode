@@ -4,9 +4,9 @@
 (defvar mylang-font-lock-keywords
   `(
     ("\\<\\(bool\\|void\\|int\\|float\\|char\\)\\>" . font-lock-builtin-face)
-    ("\\<\\(true\\|false\\)\\>" . font-lock-builtin-face)
+    ("\\<\\(true\\|false\\|nullptr\\)\\>" . font-lock-builtin-face)
 
-    ("\\<\\(delegate\\|const\\|enum\\|if\\|auto\\|else\\|class\\|while\\|for\\|return\\|this\\)\\>" . font-lock-keyword-face)
+    ("\\<\\(default\\|delegate\\|const\\|enum\\|if\\|auto\\|else\\|class\\|while\\|for\\|return\\|this\\)\\>" . font-lock-keyword-face)
     ("\\<\\(switch\\|case\\|break\\)\\>" . font-lock-keyword-face)
 
     ("\\<\\(UCLASS\\|UFUNCTION\\|UPROPERTY\\)\\>" . font-lock-constant-face)
@@ -66,6 +66,7 @@
     ;; Set this as the current syntax table
     (set-syntax-table st))
   )
+
 
 ;; Add the mode to the `features' list
 (provide 'angelscript-mode)
