@@ -6,12 +6,12 @@
     ("\\<\\(bool\\|void\\|int\\|float\\|char\\)\\>" . font-lock-builtin-face)
     ("\\<\\(true\\|false\\|nullptr\\)\\>" . font-lock-builtin-face)
 
-    ("\\<\\(default\\|delegate\\|const\\|enum\\|if\\|auto\\|else\\|class\\|while\\|for\\|return\\|this\\)\\>" . font-lock-keyword-face)
+    ("\\<\\(default\\|delegate\\|const\\|struct\\|enum\\|if\\|auto\\|else\\|class\\|while\\|for\\|return\\|this\\)\\>" . font-lock-keyword-face)
     ("\\<\\(switch\\|case\\|break\\)\\>" . font-lock-keyword-face)
 
     ("\\<\\(UCLASS\\|UFUNCTION\\|UPROPERTY\\)\\>" . font-lock-constant-face)
 
-    ("\\<\\(class\\|enum\\)\\s-+\\([A-Za-z_][A-Za-z0-9_]*\\)" 2 font-lock-type-face)
+    ("\\<\\(class\\|struct\\|enum\\)\\s-+\\([A-Za-z_][A-Za-z0-9_]*\\)" 2 font-lock-type-face)
 
     ;; Template types
     ("\\<\\([A-Za-z_][A-Za-z0-9_]*\\)<\\([A-Za-z_][A-Za-z0-9_]*\\)>\\s-+[A-Za-z_][A-Za-z0-9_]*" (1 font-lock-type-face) (2 font-lock-type-face))
