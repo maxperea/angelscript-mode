@@ -6,7 +6,7 @@
     ("\\<\\(bool\\|void\\|int\\|float\\|char\\)\\>" . font-lock-builtin-face)
     ("\\<\\(true\\|false\\|get\\|set\\|nullptr\\)\\>" . font-lock-builtin-face)
 
-    ("\\<\\(private\\|default\\|delegate\\|const\\|struct\\|enum\\|if\\|auto\\|else\\|class\\|while\\|for\\|return\\|this\\)\\>" . font-lock-keyword-face)
+    ("\\<\\(private\\|protected\\|override\\|default\\|delegate\\|const\\|struct\\|enum\\|if\\|auto\\|else\\|class\\|while\\|for\\|return\\|this\\)\\>" . font-lock-keyword-face)
     ("\\<\\(switch\\|case\\|break\\)\\>" . font-lock-keyword-face)
 
     ("\\<\\(UCLASS\\|UFUNCTION\\|UPROPERTY\\)\\>" . font-lock-constant-face)
